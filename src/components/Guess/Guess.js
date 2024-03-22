@@ -17,6 +17,7 @@ function Guess() {
     >
       <label htmlFor="guess-input">Enter guess:</label>
       <input
+        required
         id="guess-input"
         type="text"
         minLength={5}
