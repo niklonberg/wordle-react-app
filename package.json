@@ -1,0 +1,22 @@
+{
+  "name": "wordle-react-app",
+  "version": "1.0.0",
+  "description": "Wordle react challenge project, as part of 'Joy of React' course by Josh Comeau",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklonberg/wordle-react-app.git"
+  },
+  "keywords": [
+    "react",
+    "parcel"
+  ],
+  "author": "Nikolai Lønberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niklonberg/wordle-react-app/issues"
+  },
+  "homepage": "https://github.com/niklonberg/wordle-react-app#readme"
+}
