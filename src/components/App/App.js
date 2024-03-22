@@ -1,11 +1,11 @@
 import Header from "../Header/Header";
+import styles from "./App.module.scss";
 
 export function App() {
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <Header />
-
-      <div className="game-wrapper">{/* <Game /> */}</div>
+      <div className={styles.gameWrapper}>{/* <Game /> */}</div>
     </div>
   );
 }
