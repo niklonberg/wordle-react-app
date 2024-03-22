@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/niklonberg/wordle-react-app/issues"
   },
-  "homepage": "https://github.com/niklonberg/wordle-react-app#readme"
+  "homepage": "https://github.com/niklonberg/wordle-react-app#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
