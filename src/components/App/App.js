@@ -1,3 +1,11 @@
+import Header from "../Header/Header";
+
 export function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <div className="wrapper">
+      <Header />
+
+      <div className="game-wrapper">{/* <Game /> */}</div>
+    </div>
+  );
 }
