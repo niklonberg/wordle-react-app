@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Guess.module.scss";
 
-function Guess() {
-  const [guess, setGuess] = React.useState("");
+function Guess({ guesses, setGuesses }) {
+  const [currGuess, setCurrGuess] = React.useState("");
 
   function handleSubmitGuess(event) {
     event.preventDefault();
-    console.log(guess);
-    setGuess("");
+    console.log(currGuess);
+    setCurrGuess("");
+    setGuesses([...guesses, currGuess]);
   }
 
   return (
@@ -21,8 +22,8 @@ function Guess() {
         maxLength={5}
         pattern="[a-zA-Z]{5}"
         title="Please enter exactly 5 letters."
-        value={guess}
-        onChange={(event) => setGuess(event.target.value.toUpperCase())}
+        value={currGuess}
+        onChange={(event) => setCurrGuess(event.target.value.toUpperCase())}
       ></input>
       <button>Submit</button>
     </form>
