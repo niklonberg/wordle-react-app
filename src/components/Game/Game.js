@@ -9,7 +9,7 @@ const wordToGuess = randomSelector(WORDS);
 console.log({ wordToGuess });
 
 function Game() {
-  return <p>hello</p>;
+  return <Guess />;
 }
 
 export default Game;
